@@ -42,6 +42,7 @@ class Controller extends \CI_Controller
         'index' => 'index',
         'store' => 'store',
         'show' => 'show',
+        'collection' => 'collection',
         'update' => 'update',
         'delete' => 'delete',
     ];
@@ -55,6 +56,7 @@ class Controller extends \CI_Controller
         'index' => null,
         'store' => null,
         'show' => null,
+        'collection' => null,
         'update' => null,
         'delete' => null,
     ];
@@ -132,7 +134,7 @@ class Controller extends \CI_Controller
                 if ($resourceID) {
                     return $this->_action(['show', $resourceID]);
                 } else {
-                    return $this->_action(['show']);
+                    return $this->_action(['collection']);
                 }
                 break;
         }
