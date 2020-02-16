@@ -37,7 +37,7 @@ class Response
     public $contentTypes = [
         self::FORMAT_RAW => 'text/plain;',
         self::FORMAT_HTML => 'text/html;',
-        self::FORMAT_JSON => 'application/json;', // RFC 4627
+        self::FORMAT_JSON => 'application/json', // RFC 4627
         self::FORMAT_JSONP => 'application/javascript;', // RFC 4329
         self::FORMAT_XML => 'application/xml;', // RFC 2376
     ];

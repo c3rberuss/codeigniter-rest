@@ -132,7 +132,7 @@ class Controller extends \CI_Controller
                 if ($resourceID) {
                     return $this->_action(['show', $resourceID]);
                 } else {
-                    return $this->_action(['index']);
+                    return $this->_action(['show']);
                 }
                 break;
         }
