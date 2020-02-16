@@ -1,13 +1,13 @@
 {
-    "name": "yidas/codeigniter-rest",
+    "name": "c3rberuss/rest",
     "description": "CodeIgniter 3 RESTful API Resource Base Controller",
     "keywords": ["codeIgniter", "api", "controller", "authorization"],
-    "homepage": "https://github.com/yidas/codeigniter-rest",
+    "homepage": "https://github.com/c3rberuss/rest",
     "type": "library",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/yidas/codeigniter-rest/issues",
-        "source": "https://github.com/yidas/codeigniter-rest"
+        "issues": "https://github.com/c3rberuss/rest/issues",
+        "source": "https://github.com/c3rberuss/rest"
     },
     "minimum-stability": "stable",
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yidas\\": "src/"
+            "c3rberuss\\": "src/"
         }
     }
 }
