@@ -243,10 +243,11 @@ class Controller extends \CI_Controller
             $packBody['message'] = $message;
         }
         // Data
-        if (is_array($data) || is_string($data)) {
-            
-            $packBody['data'] = $data;
-        }
+        /*if (is_array($data) || is_string($data)) {
+        }*/
+
+        $packBody['data'] = $data;
+
         
         return $packBody;
     }
